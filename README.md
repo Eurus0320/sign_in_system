@@ -4,33 +4,33 @@
 发送
 ```json
 {
-"user_name": String,
-name: String,
-password: Hash
+"user_name": "String",
+"name": "String",
+"password": "Hash"
 }
 ```
 返回（status==1表示登录成功，status==0表示失败）
 ```json
 {
-status: int,
-name: String
+"status": "int",
+"name": "String"
 }
 ```
 - 签到地点
 ```json
 {
-pos_id: int,
-pos_name: String,
-key: String
+"pos_id": "int",
+"pos_name": "String",
+"key": "String"
 }
 ```
 - 签到记录
 ```json
 {
-user_name: String,
-pos_id: int,
-time: String,
-device_id: String
+"user_name": "String",
+"pos_id": "int",
+"time": "String",
+"device_id": "String"
 }
 ```
 ## To Do
