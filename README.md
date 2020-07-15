@@ -4,7 +4,7 @@
 发送
 ```json
 {
-user_name: String,
+"user_name": String,
 name: String,
 password: Hash
 }
